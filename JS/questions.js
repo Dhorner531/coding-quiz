@@ -1,63 +1,27 @@
-// questions page
+// set questions
 var questions = [
     {
-      title: "Which one is a looping structure in JavaScript?",
-      choices: ["All the below", "For", "While", "do-while loops"],
-      answer: "All the below"
+      title: "What datatype can a boolean value be?",
+      choices: ["True or false", "Numbers", "High or low", "Items"],
+      answer: "True or false"
     },
     {
-      title: "What are the two basic groups of data types in JavaScript?",
+      title: "Which are loops used in JavaScript?",
       choices: [
-        "Primitive and attribute",
-        "Primitive and reference types",
-        "Reference types and attribute",
-        "None of the above"
-      ],
-      answer: "Primitive and reference types"
-    },
-    {
-      title: "Commonly used data types DO NOT include:",
-      choices: ["strings", "booleans", "alerts", "numbers"],
-      answer: "alerts"
-    },
-    {
-      title: "Boolean operators that can be used in JavaScript include:",
-      choices: [
-        "'And' Operator &&",
-        "'Or' Operator ||",
-        "'Not' Operator !",
-        "All the above"
-      ],
-      answer: "All the above"
-    },
-    {
-      title:
-        "Which one of these is not among the three different types of errors in JavaScript?",
-      choices: [
-        "Animation time errors",
-        "Load time errors",
-        "Run time errors",
-        "Logical Errors"
-      ],
-      answer: "Animation time errors"
-    },
-    {
-      title: "What is the data type of variables in JavaScript?",
-      choices: [
-        "Object data types",
-        "Function data type",
-        "None of the above",
+        "For loop",
+        "While loop",
+        "Do-while Loop",
         "All of the above"
       ],
-      answer: "Object data types"
+      answer: "All of the above"
     },
     {
-      title: "The condition in an if / else statement is enclosed within ____.",
-      choices: ["quotes", "curly brackets", "parentheses", "square brackets"],
-      answer: "parentheses"
+      title: "What is NOT a JavaScript function?",
+      choices: ["Object", "String", "Boolean", "Number"],
+      answer: "Object"
     },
     {
-      title: "Arrays in JavaScript can be used to store ____.",
+      title: "What can you store in an array?",
       choices: [
         "numbers and strings",
         "other arrays",
@@ -68,19 +32,33 @@ var questions = [
     },
     {
       title:
-        "String values must be enclosed within ____ when being assigned to variables.",
-      choices: ["commas", "curly brackets", "quotes", "parentheses"],
-      answer: "quotes"
+        "How do you signify the value of a string?",
+      choices: [
+        "Use single quote marks",
+        "Use double quote marks",
+        "Do not use either quote marks",
+        "You can use either single or double quote marks"
+      ],
+      answer: "You can use either single or double quote marks"
     },
     {
-      title:
-        "A very useful tool used during development and debugging for printing content to the debugger is:",
-      choices: ["JavaScript", "terminal / bash", "for loops", "console.log"],
-      answer: "console.log"
+      title: "How can you add a comment that will not show up in JavaScript code?",
+      choices: [
+        " ~ ~ ",
+        "??",
+        "//",
+        "**"
+      ],
+      answer: "//"
     },
     {
-      title: "What is the type of Pop up boxes available in JavaScript?:",
-      choices: ["Alert", "Confirm", "Prompt", "All the above"],
+      title: "When naming a variable, what can you NOT use?",
+      choices: ["&", "digits", "$", "letters"],
+      answer: "&"
+    },
+    {
+      title: "What type of pop up boxes can you use in JavaScript?:",
+      choices: ["Alert", "Prompt", "Confirm", "All the above"],
       answer: "All the above"
-    }
+    },
   ];

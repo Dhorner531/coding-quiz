@@ -51,7 +51,7 @@ function getQuestion() {
 }
 
 function questionClick() {
-  // right answer
+  
   if (this.value !== questions[currentQuestionIndex].answer) {
     // subract time
     time -= 15;

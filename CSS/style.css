@@ -1,8 +1,6 @@
 
 
-body {
-    font-family: "Roboto Mondo", serif;
-  }
+
  .wrapper {
     margin: 100px auto 0 auto;
     max-width: 600px;
@@ -53,7 +51,7 @@ body {
     cursor: pointer;
     font-family: "Architects Daughter", cursive;
     font-size: 100%;
-    background-color: rgb(28, 0, 128);
+    background-color: rgb(27, 10, 88);
     border-radius: 5px;
     padding: 2px 10px;
     color: white;
